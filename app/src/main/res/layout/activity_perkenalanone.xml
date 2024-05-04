@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="perkenalanoneVM" type="com.syafiqaqilahsapplication.app.modules.perkenalanone.data.viewmodel.PerkenalanoneVM"/>
+    </data>
+    <LinearLayout android:id="@+id/linearColumnskinBiopsyOneOne"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical" style="@style/groupStyleblack_900">
+        <LinearLayout android:id="@+id/linearPerkenalanOne"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/_16pxv"
+            android:paddingEnd="@dimen/_33pxh"
+            android:paddingStart="@dimen/_33pxh" android:paddingTop="@dimen/_16pxv">
+            <LinearLayout android:gravity="center_vertical"
+                android:id="@+id/linearRowskinbiopsyon"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_31pxv"
+                android:layout_width="wrap_content" android:orientation="horizontal">
+                <ImageView android:id="@+id/imageSkinbiopsyone"
+                    android:layout_height="@dimen/_94pxh"
+                    android:layout_width="@dimen/_94pxh"
+                    android:scaleType="fitXY"
+                    imageRes="@{@drawable/img_skin_biopsy_1}"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_skin_biopsy_1"/>
+                <FrameLayout android:id="@+id/frameStackprice"
+                    android:layout_height="@dimen/_50pxv"
+                    android:layout_marginBottom="@dimen/_29pxv"
+                    android:layout_marginStart="@dimen/_4pxh"
+                    android:layout_marginTop="@dimen/_14pxv" android:layout_width="@dimen/_75pxh">
+                    <TextView android:ellipsize="end"
+                        android:gravity="top|start"
+                        android:id="@+id/txtPrice"
+                        android:layout_gravity="top|start"
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:singleLine="true"
+                        android:text="@{perkenalanoneVM.perkenalanoneModel.txtPrice}"
+                        style="@style/txtPoppinsbold25" tools:text="@string/lbl_sosa"/>
+                    <TextView android:ellipsize="end"
+                        android:gravity="top|start"
+                        android:id="@+id/txtSolarsafe"
+                        android:layout_gravity="bottom|center"
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:singleLine="true"
+                        android:text="@{perkenalanoneVM.perkenalanoneModel.txtSolarsafe}"
+                        style="@style/txtPoppinsregular15" tools:text="@string/lbl_solar_safe"/>
+                </FrameLayout>
+            </LinearLayout>
+            <ImageView android:gravity="center_horizontal"
+                android:id="@+id/imageUndrawdoctors"
+                android:layout_height="@dimen/_228pxh"
+                android:layout_marginTop="@dimen/_52pxv"
+                android:layout_width="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/img_undraw_doctors_hwty"
+                tools:ignore="ContentDescription" tools:src="@drawable/img_undraw_doctors_hwty"/>
+            <LinearLayout android:gravity="center_vertical"
+                android:id="@+id/linearRowourproject"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_48pxv"
+                android:layout_width="wrap_content" android:orientation="horizontal">
+                <TextView android:ellipsize="end"
+                    android:id="@+id/txtOurproject"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:singleLine="true"
+                    android:text="@{perkenalanoneVM.perkenalanoneModel.txtOurproject}"
+                    style="@style/txtPoppinsbold20" tools:text="@string/lbl_our_project"/>
+                <ImageView android:id="@+id/imageThumbsupOne"
+                    android:layout_height="@dimen/_20pxh"
+                    android:layout_marginBottom="@dimen/_6pxv"
+                    android:layout_marginStart="@dimen/_15pxh"
+                    android:layout_marginTop="@dimen/_3pxv"
+                    android:layout_width="@dimen/_25pxh"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/img_thumbs_up"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_thumbs_up"/>
+            </LinearLayout>
+            <TextView android:gravity="center_horizontal"
+                android:id="@+id/txtDescription"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_25pxh"
+                android:layout_marginStart="@dimen/_26pxh"
+                android:layout_marginTop="@dimen/_29pxv"
+                android:layout_width="match_parent"
+                android:text="@{perkenalanoneVM.perkenalanoneModel.txtDescription}"
+                style="@style/txtRobotoregular15" tools:text="@string/msg_sosa_is_software"/>
+            <TextView android:ellipsize="end"
+                android:id="@+id/txtLightmode"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_6pxv"
+                android:layout_width="wrap_content"
+                android:singleLine="true"
+                android:text="@{perkenalanoneVM.perkenalanoneModel.txtLightmode}"
+                style="@style/txtPoppinsbold20" tools:text="@string/lbl_light_mode"/>
+        </LinearLayout>
+        <androidx.appcompat.widget.AppCompatButton
+            android:ellipsize="end" android:gravity="center"
+            android:id="@+id/btnGetStarted"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_59pxv"
+            android:layout_marginEnd="@dimen/_33pxh"
+            android:layout_marginStart="@dimen/_34pxh"
+            android:layout_width="match_parent"
+            android:paddingBottom="@dimen/_14pxv"
+            android:paddingEnd="@dimen/_30pxh"
+            android:paddingStart="@dimen/_30pxh"
+            android:paddingTop="@dimen/_14pxv" android:singleLine="true"
+            android:text="@string/lbl_get_started"
+            android:textAllCaps="false" style="@style/btnSolidRounded" tools:text="@string/lbl_get_started"/>
+    </LinearLayout>
+</layout>

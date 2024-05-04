@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <string name="app_name">syafiq_aqilah_s_application2</string>
+    <string name="loading">Loading…</string>
+    <string name="no_internet_connection">No internet connection!</string>
+<string name="lbl_tt_46_06">TT-46-06</string>
+  <string name="lbl_tt_46_07">TT-46-07</string>
+  <string name="msg_fadhlrahman_fitra">Fadhlrahman
+Fitra Arsil</string>
+  <string name="lbl_search_news">Search News</string>
+  <string name="lbl_tt_46_04">TT-46-04</string>
+  <string name="msg_enter_your_email">Enter your email</string>
+  <string name="lbl_try_here">Try Here!</string>
+  <string name="msg_already_have_an">Already have an account? </string>
+  <string name="lbl_solar_safe">Solar Safe</string>
+  <string name="msg_enter_your_full">Enter your full name</string>
+  <string name="msg_enter_your_password">Enter your password</string>
+  <string name="lbl_1_4k_views">1.4k views</string>
+  <string name="lbl_arseelll">\@arseelll</string>
+  <string name="lbl_sign_in">Sign In</string>
+  <string name="lbl_latest_news">Latest News</string>
+  <string name="msg_abdillah_fathoni">Abdillah Fathoni 
+Nabil</string>
+  <string name="msg_your_information">Your Information is safe with us</string>
+  <string name="lbl_tt_45_03">TT-45-03</string>
+  <string name="lbl_get_started">Get Started</string>
+  <string name="msg_dont_have_an_account">Dont have an account? Sign Up</string>
+  <string name="lbl_sign_up"> Sign Up</string>
+  <string name="lbl_sign_up2">Sign Up</string>
+  <string name="lbl_1101223410">1101223410</string>
+  <string name="lbl_865_views">865 views</string>
+  <string name="lbl_hello">Hello,</string>
+  <string name="msg_submit_your_skin">Submit your skin photo and you can find out your skin analysis!</string>
+  <string name="lbl_skin_analysis">Skin Analysis </string>
+  <string name="msg_alika_widuri_kartika">Alika Widuri 
+Kartika</string>
+  <string name="lbl_1101210477">1101210477</string>
+  <string name="lbl_guest">Guest !</string>
+  <string name="lbl_cancer">Cancer</string>
+  <string name="lbl_fikql">\@fikql_</string>
+  <string name="msg_dont_have_an_account2">Dont have an account?</string>
+  <string name="msg_how_to_prevent_cancer">How to Prevent Cancer?</string>
+  <string name="lbl_alikaartka">\@alikaartka_</string>
+  <string name="lbl_light_mode">Light Mode</string>
+  <string name="lbl_sosa">SOSA</string>
+  <string name="msg_confirm_your_password">Confirm your password</string>
+  <string name="lbl_instagram">INSTAGRAM</string>
+  <string name="lbl_class">CLASS</string>
+  <string name="msg_sosa_is_software">SOSA is software that uses image recognition technology and machine learning to assist in detecting potential skin cancer in individuals. The following is an explanation of the skin cancer detection application project</string>
+  <string name="msg_already_have_an2">Already have an account?</string>
+  <string name="msg_s1_telecommunication">S1 Telecommunication </string>
+  <string name="lbl_welcome">welcome !!</string>
+  <string name="msg_this_is_the_reason_why">This is the reason
+why you get cancer</string>
+  <string name="lbl_abdillahfn">\@abdillahfn_</string>
+  <string name="lbl_1101223151">1101223151</string>
+  <string name="lbl_our_project">Our Project</string>
+  <string name="lbl_forgot_password">Forgot Password</string>
+  <string name="msg_cancer_treatment">"Cancer treatment: Vitamin D diet holds key? 
+Here's what latest research reveals"</string>
+  <string name="lbl_1101223078">1101223078</string>
+  <string name="lbl_nim">NIM</string>
+  <string name="msg_register_with_us">Register With Us!</string>
+  <string name="msg_about_specialist">About Specialist</string>
+  <string name="msg_syafiq_aqilah_hammam">Syafiq Aqilah
+Hammam</string>
+</resources>
